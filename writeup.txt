@@ -1,0 +1,16 @@
+What challenges did you encounter with this assignment, if any?
+    I did not encounter any main challenges with this assignment, it was pretty straightforward. 
+
+What did you think about the requirements specification for this assignment?
+    The requirements specification for this assignment is clear and well-structured, though it does have some ambiguity 
+    of whether or not we should make our program bug free or not in order to test the testing framework. There is also multiple 
+    ways to do tests with these framework, for example in pytest we can do assert of parameterized testing and it was unclear which 
+    one to use. 
+
+What challenges did you encounter with the tools?
+    Originally I had overlooked some of the edge cases such as if the triangle was invalid or had sidelengths equal to zero. 
+    I was able to use pytest without errors but am unsure if I am testings for all possibilities that I should be. 
+
+Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+    The criteria I used was making sure that I had tested triangles of each type (equilateral, isolceles, scalene) and right, 
+    as well as the invalid scenarios I accounted for in the code. 
